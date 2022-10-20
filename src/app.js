@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 app.set("sequelize", sequelize);
 app.set("models", sequelize.models);
 
-const { Op, col, fn, cast } = require("sequelize");
+const { Op } = require("sequelize");
 
 /**
  * @returns contract by id
